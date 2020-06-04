@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>^https?://\S+$</string>
+			<key>Title</key>
+			<string>Follow</string>
+			<key>Shell Script File</key>
+			<string>follower.sh</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Follows redirects without giving out your IP. Also helpful when tracking links are blocked by a filtering system.</string>
+	<key>Extension Identifier</key>
+	<string>com.noahcardoza.popclip.extension.follower</string>
+	<key>Extension Name</key>
+	<string>Follower</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
